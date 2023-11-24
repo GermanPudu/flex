@@ -1,0 +1,15 @@
+.users{
+    display: flex;
+    flex-direction: column;
+    flex-basis: auto;
+    border: solid;
+    }
+
+.person{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.info{
+    
+}
