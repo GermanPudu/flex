@@ -21,13 +21,13 @@
 
 .first-paragraph{
    margin-bottom: 0em;
-    font-size: 1em;
+    font-size: 2em;
 
 }
 .second-paragraph{
     margin-top: 0em;
     color: gray;
-    font-size: 0.5em;
+    font-size: 0.75em;
     
 }
 .mariaimg{
@@ -39,8 +39,9 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    margin-right: 10em;
+    margin-right: 8em;
     text-align: justify center;
+    
     
 }
 .botones{
@@ -75,9 +76,10 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    margin-right: 10em;
+    margin-right: 8em;
     margin-left: 2em;
     text-align: justify center;
+    
     
 }
 .personchats{
