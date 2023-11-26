@@ -1,15 +1,90 @@
 .users{
     display: flex;
     flex-direction: column;
-    flex-basis: auto;
-    border: solid;
+    border: 1px solid rgb(184, 172, 172);
+    background-color: aliceblue;
+    flex: 0 0 20%;
+    width: 50vh;
+    min-height: 100vh;
     }
 
 .person{
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-}
-.info{
     
+    align-items: start;
+    padding: 0.5em;
+    flex: 0 0 20%;
+    flex-direction: row;
+
+}
+
+.first-paragraph{
+   margin-bottom: 0em;
+    font-size: 1em;
+
+}
+.second-paragraph{
+    margin-top: 0em;
+    color: gray;
+    font-size: 0.5em;
+    
+}
+.mariaimg{
+    width: 8vh;
+    height: 8vh;
+    border-radius: 50%;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-right: 10em;
+    text-align: justify center;
+    
+}
+.botones{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2em;
+}
+.fa-message{
+    margin-right: 0.5em;
+}
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.btn-primary{
+    background-color: blueviolet;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 2em;
+    border-bottom: 1px solid rgb(184, 172, 172);
+    border-top: 1px solid rgb(184, 172, 172);;
+}
+.chatimg{
+    width: 6vh;
+    height: 6vh;
+    border-radius: 50%;
+}
+.textchats{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-right: 10em;
+    margin-left: 2em;
+    text-align: justify center;
+    
+}
+.personchats{
+    border-bottom: 1px solid rgb(184, 172, 172);
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    padding: 0.5em;
+    flex: 0 0 20%;
 }
